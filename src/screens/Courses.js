@@ -6,7 +6,7 @@ import { Poppins_400Regular, Poppins_600SemiBold, Poppins_700Bold } from '@expo-
 import { Inter_400Regular, Inter_600SemiBold, Inter_700Bold } from '@expo-google-fonts/inter';
 
 
-const Courses = () => {
+const Courses = ({navigation}) => {
   // Separate variables for top 5 and all courses
   const allCourses = coursesData.allCourses;
   const top5Courses = coursesData.top5Courses;
@@ -38,7 +38,7 @@ const Courses = () => {
             <Text style={styles.courseName}>{item.name}</Text>
             <Text style={styles.coursePrice}>${item.price.toFixed(2)}</Text>
             <Text style={styles.courseDescription}>{item.description}</Text>
-            <TouchableOpacity style={styles.moreDetailsButton}>
+            <TouchableOpacity style={styles.moreDetailsButton} onPress={() => navigation.navigate('CourseDetails',{ course: item })}>
               <Text style={styles.moreDetailsText}>More Details</Text>
             </TouchableOpacity>
           </View>
@@ -52,7 +52,7 @@ const Courses = () => {
           <Text style={styles.courseName}>{item.name}</Text>
           <Text style={styles.coursePrice}>${item.price.toFixed(2)}</Text>
           <Text style={styles.courseDescription}>{item.description}</Text>
-          <TouchableOpacity style={styles.moreDetailsButton}>
+          <TouchableOpacity style={styles.moreDetailsButton} onPress={() => navigation.navigate('CourseDetails',{ course: item })}>
               <Text style={styles.moreDetailsText}>More Details</Text>
             </TouchableOpacity>
         </View>
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.5,
     shadowRadius: 8,
-    elevation: 5,
+    elevation: 10,
     width: 300, // Adjust width as needed
     height: 'auto',
   },
@@ -97,8 +97,8 @@ const styles = StyleSheet.create({
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.4,
-    shadowRadius: 6,
-    elevation: 5,
+    shadowRadius: 8,
+    elevation: 10,
   },
   courseName: {
     fontSize: 18,

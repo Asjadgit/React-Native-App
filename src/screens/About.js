@@ -21,7 +21,7 @@ const About = () => {
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.header}>About Us</Text>
       <Text style={styles.paragraph}>
-        Welcome to Here, your go-to destination for high-quality online education. Our mission is to empower learners worldwide by providing accessible, affordable, and engaging educational content. Whether you're a student seeking to enhance your knowledge, a professional looking to upskill, or simply someone passionate about learning, we have something for everyone.
+        Welcome , your go-to destination for high-quality online education. Our mission is to empower learners worldwide by providing accessible, affordable, and engaging educational content. Whether you're a student seeking to enhance your knowledge, a professional looking to upskill, or simply someone passionate about learning, we have something for everyone.
       </Text>
       <Text style={styles.subHeader}>Our Vision</Text>
       <Text style={styles.paragraph}>

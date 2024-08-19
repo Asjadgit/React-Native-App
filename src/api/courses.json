@@ -1,62 +1,72 @@
 {
-    "allCourses": [
-      {
-        "name": "Introduction to Web Development",
-        "price": 29.99,
-        "description": "Learn the basics of web development including HTML, CSS, and JavaScript. This course is perfect for beginners who want to build their first website."
-      },
-      {
-        "name": "Front-End Web Development with React",
-        "price": 49.99,
-        "description": "Dive deep into front-end development with React. Learn how to build dynamic and interactive user interfaces using React.js, one of the most popular JavaScript libraries."
-      },
-      {
-        "name": "Back-End Development with Node.js",
-        "price": 59.99,
-        "description": "Master the back-end of web development with Node.js. This course covers server-side programming, building RESTful APIs, and integrating with databases."
-      },
-      {
-        "name": "Full-Stack Web Development Bootcamp",
-        "price": 99.99,
-        "description": "Become a full-stack web developer by learning both front-end and back-end technologies. This comprehensive bootcamp covers HTML, CSS, JavaScript, React, Node.js, and more."
-      },
-      {
-        "name": "Responsive Web Design",
-        "price": 39.99,
-        "description": "Learn how to create responsive websites that look great on any device. This course covers techniques for making your website adaptable to different screen sizes and orientations."
-      },
-      {
-        "name": "Advanced JavaScript and Web Performance",
-        "price": 49.99,
-        "description": "Take your JavaScript skills to the next level and learn how to optimize web performance. This course covers advanced JavaScript techniques and performance best practices."
-      }
-    ],
-    "top5Courses": [
-      {
-        "name": "Full-Stack Web Development Bootcamp",
-        "price": 99.99,
-        "description": "Become a full-stack web developer by learning both front-end and back-end technologies. This comprehensive bootcamp covers HTML, CSS, JavaScript, React, Node.js, and more."
-      },
-      {
-        "name": "Front-End Web Development with React",
-        "price": 49.99,
-        "description": "Dive deep into front-end development with React. Learn how to build dynamic and interactive user interfaces using React.js, one of the most popular JavaScript libraries."
-      },
-      {
-        "name": "Back-End Development with Node.js",
-        "price": 59.99,
-        "description": "Master the back-end of web development with Node.js. This course covers server-side programming, building RESTful APIs, and integrating with databases."
-      },
-      {
-        "name": "Introduction to Web Development",
-        "price": 29.99,
-        "description": "Learn the basics of web development including HTML, CSS, and JavaScript. This course is perfect for beginners who want to build their first website."
-      },
-      {
-        "name": "Responsive Web Design",
-        "price": 39.99,
-        "description": "Learn how to create responsive websites that look great on any device. This course covers techniques for making your website adaptable to different screen sizes and orientations."
-      }
-    ]
-  }
-  
+  "allCourses": [
+    {
+      "name": "Introduction to Web Development",
+      "price": 29.99,
+      "description": "Learn the basics of web development including HTML, CSS, and JavaScript. This course is perfect for beginners who want to build their first website.",
+      "languages": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Front-End Web Development with React",
+      "price": 49.99,
+      "description": "Dive deep into front-end development with React. Learn how to build dynamic and interactive user interfaces using React.js, one of the most popular JavaScript libraries.",
+      "languages": ["JavaScript", "React.js", "HTML", "CSS"]
+    },
+    {
+      "name": "Back-End Development with Node.js",
+      "price": 59.99,
+      "description": "Master the back-end of web development with Node.js. This course covers server-side programming, building RESTful APIs, and integrating with databases.",
+      "languages": ["JavaScript", "Node.js", "Express.js", "SQL", "NoSQL"]
+    },
+    {
+      "name": "Full-Stack Web Development Bootcamp",
+      "price": 99.99,
+      "description": "Become a full-stack web developer by learning both front-end and back-end technologies. This comprehensive bootcamp covers HTML, CSS, JavaScript, React, Node.js, and more.",
+      "languages": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "SQL", "NoSQL"]
+    },
+    {
+      "name": "Responsive Web Design",
+      "price": 39.99,
+      "description": "Learn how to create responsive websites that look great on any device. This course covers techniques for making your website adaptable to different screen sizes and orientations.",
+      "languages": ["HTML", "CSS", "JavaScript", "Bootstrap", "Flexbox", "Grid"]
+    },
+    {
+      "name": "Advanced JavaScript and Web Performance",
+      "price": 49.99,
+      "description": "Take your JavaScript skills to the next level and learn how to optimize web performance. This course covers advanced JavaScript techniques and performance best practices.",
+      "languages": ["JavaScript", "ES6+", "Web Performance", "APIs"]
+    }
+  ],
+  "top5Courses": [
+    {
+      "name": "Full-Stack Web Development Bootcamp",
+      "price": 99.99,
+      "description": "Become a full-stack web developer by learning both front-end and back-end technologies. This comprehensive bootcamp covers HTML, CSS, JavaScript, React, Node.js, and more.",
+      "languages": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "SQL", "NoSQL"]
+    },
+    {
+      "name": "Front-End Web Development with React",
+      "price": 49.99,
+      "description": "Dive deep into front-end development with React. Learn how to build dynamic and interactive user interfaces using React.js, one of the most popular JavaScript libraries.",
+      "languages": ["JavaScript", "React.js", "HTML", "CSS"]
+    },
+    {
+      "name": "Back-End Development with Node.js",
+      "price": 59.99,
+      "description": "Master the back-end of web development with Node.js. This course covers server-side programming, building RESTful APIs, and integrating with databases.",
+      "languages": ["JavaScript", "Node.js", "Express.js", "SQL", "NoSQL"]
+    },
+    {
+      "name": "Introduction to Web Development",
+      "price": 29.99,
+      "description": "Learn the basics of web development including HTML, CSS, and JavaScript. This course is perfect for beginners who want to build their first website.",
+      "languages": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Responsive Web Design",
+      "price": 39.99,
+      "description": "Learn how to create responsive websites that look great on any device. This course covers techniques for making your website adaptable to different screen sizes and orientations.",
+      "languages": ["HTML", "CSS", "JavaScript", "Bootstrap", "Flexbox", "Grid"]
+    }
+  ]
+}

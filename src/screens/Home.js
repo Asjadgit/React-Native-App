@@ -42,7 +42,7 @@ const Home = () => {
                 <Image style={styles.icon} source={{uri:"https://img.icons8.com/?size=100&id=43436&format=png&color=000000"}} />
                 </TouchableOpacity>
 
-                <TouchableOpacity style={styles.button} onPress={() => { navigation.navigate('Users') }}>
+                <TouchableOpacity style={styles.button} onPress={() => { navigation.navigate('Instructors') }}>
                 <Image style={styles.icon} source={{uri:"https://img.icons8.com/?size=100&id=RiQFWoQQ4lQE&format=png&color=000000"}} />
                 </TouchableOpacity>
 
