@@ -1,4 +1,5 @@
 import React from 'react';
+import Login from './src/screens/Login';
 import Home from './src/screens/Home';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
@@ -7,18 +8,19 @@ import Contact from './src/screens/Contact';
 import Users from './src/screens/Users';
 import Courses from './src/screens/Courses';
 import CourseDetails from './src/screens/CourseDetails';
-import Login from './src/screens/Login';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
-  const Stack = createNativeStackNavigator();
+  
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Home'>
-      <Stack.Screen name='Login' component={Login} options={
-        {
-          headerTitleAlign:'center',
-        }
-      }/>
+      <Stack.Navigator initialRouteName='LoginPage'>
+      <Stack.Screen name='LoginPage' component={Login} options={
+          {
+            headerShown:false
+          }
+         } />
         <Stack.Screen name='Home' component={Home} options={
           {
             headerShown:false
@@ -45,10 +47,7 @@ export default function App() {
          {/* Students Screen */}
          <Stack.Screen name='Instructors' component={Users} options={
           {
-            headerTitleStyle:{
-              fontSize:25,
-            },
-            headerTitleAlign: 'center',
+            headerShown:false
           }
          }/>
          {/* Courses Screen */}

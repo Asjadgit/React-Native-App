@@ -55,6 +55,7 @@ const styles = StyleSheet.create({
   container: {
     felx: 1,
     padding: 20,
+    marginVertical: 55,
   },
   title: {
     fontSize: 24,
