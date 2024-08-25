@@ -26,9 +26,9 @@ This app is built with basic React Native code, aimed at beginners who want to p
 # 2. **Scan the QR code with Expo Go or open the app in the simulator/emulator.**
 
 - # Exploring the App
--- ### Login Form:
+  ### Login Form:
 
-# Go to the login screen, enter sample credentials, and submit.
+- # Go to the login screen, enter sample credentials, and submit.
  ## Contact Form:
   -Visit the contact form and try entering some contact information.
 
